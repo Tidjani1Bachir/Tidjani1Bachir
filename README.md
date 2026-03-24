@@ -104,7 +104,7 @@ University of Saad Dahleb — Blida, Algeria · 2020 – 2024
 
 ## 🌍 Languages
 
-🇩🇿 Arabic — Native &nbsp;|&nbsp; 🇬🇧 English — Fluent &nbsp;|&nbsp; 🇫🇷 French — Intermediate
+🇩🇿 Arabic — Native &nbsp;|&nbsp; 🇬🇧 English — Intermediate &nbsp;|&nbsp; 🇫🇷 French — Intermediate
 
 ---
 
