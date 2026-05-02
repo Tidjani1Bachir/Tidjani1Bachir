@@ -79,6 +79,85 @@ Next.js 14 implementation of a ready-made HTML/CSS template by ElzeroWebSchool �
 
 ---
 
+---
+
+## 🌍 Open Source Contributions
+
+> Real bugs fixed in real projects used by millions of developers worldwide.
+
+---
+
+### 🔥 [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) — 444k+ ⭐
+**PR #67211** · `fix(client): privacy save button state`
+
+Fixed a UI bug where the Save button on the Privacy Settings page remained 
+enabled after reverting all changes back to their original state.
+
+- Replaced a simple boolean flag with derived state comparison
+- All 9 unit tests passing
+- Worked within a large TypeScript/React codebase following strict contribution guidelines
+
+`TypeScript` `React` `Vitest` `Redux`
+[→ View PR](https://github.com/freeCodeCamp/freeCodeCamp/pull/67211)
+
+---
+
+### 🛡️ [express-mongo-sanitize](https://github.com/fiznool/express-mongo-sanitize) — 500k+ weekly npm downloads
+**PR #203** · `fix: use defineProperty for req.query to support Express 5`
+
+Fixed a silent sanitization failure and crash when using the package with Express 5.
+
+- Express 5 made `req.query` a read-only computed getter — direct reassignment silently failed
+- Used `Object.defineProperty()` to replace the getter with a sanitized static value
+- Fixed 8 pre-existing test failures + added 4 new Express 5 compatibility tests
+- **80 passing, 0 failing**
+
+`Node.js` `Express 5` `JavaScript` `Testing`
+[→ View PR](https://github.com/fiznool/express-mongo-sanitize/pull/203)
+
+---
+
+### 🍃 [Mongoose ODM](https://github.com/Automattic/mongoose) — 27k+ ⭐
+**PR #16239** · Missing TypeScript type exports
+
+Identified and submitted a fix to expose missing TypeScript types 
+(`Projector`, `ArrayOperators`, `QueryResultType`, `PluginFunction`) 
+for downstream library authors.
+
+- Included compile-time type assertion tests across 39 test files (958 assertions)
+- PR closed as duplicate — independently arrived at the same valid fix
+
+`TypeScript` `Mongoose` `Type Safety`
+[→ View PR](https://github.com/Automattic/mongoose/pull/16239)
+
+---
+
+## 🐳 Docker & Cloud-Ready Projects
+
+### [Product Manager — AWS Edition](https://github.com/Tidjani1Bachir/product-manager-dynamodb-localstack-setup)
+Production-parity local AWS environment using **DynamoDB + LocalStack + Docker**.
+
+- Migrated from SQLite (Turso) to AWS DynamoDB with SDK v3
+- Designed multi-entity schema: Products, Categories, StockHistory, AppSettings
+- Built with LocalStack for seamless switching between local and AWS with **zero code changes**
+- Dockerized with Docker Compose for one-command setup
+
+`AWS DynamoDB` `LocalStack` `Docker` `Docker Compose` `Node.js`
+[→ View Repo](https://github.com/Tidjani1Bachir/product-manager-dynamodb-localstack-setup)
+
+---
+
+### [Product Manager — Full Stack](https://product-manager-chi-eosin.vercel.app)
+Web + Desktop app with **46 production deployments**.
+
+- Dockerized frontend, backend, and database with multi-stage builds
+- nginx reverse proxy orchestration
+- **6 releases**, cross-platform: Web (Vercel) + Desktop (.exe/.msi)
+- Complete test suite: **39/39 passing**
+
+`React` `TypeScript` `Docker` `Tauri` `Vitest` `Playwright`
+[→ Live App](https://product-manager-chi-eosin.vercel.app) · [→ View Repo](https://github.com/Tidjani1Bachir/product_manager)
+
 ## 📊 GitHub Stats
 
 <p align="center">
