@@ -98,7 +98,7 @@ enabled after reverting all changes back to their original state.
 - Worked within a large TypeScript/React codebase following strict contribution guidelines
 
 `TypeScript` `React` `Vitest` `Redux`
-[→ View PR](https://github.com/freeCodeCamp/freeCodeCamp/pull/67211)
+[→ View PR](https://github.com/freeCodeCamp/freeCodeCamp/pull/67230)
 
 ---
 
